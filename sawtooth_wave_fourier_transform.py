@@ -2,7 +2,7 @@
 """
 Created on Tue Nov  4 14:49:23 2025
 
-@author: Ashwin
+@author: Ashwin Thomas
 """
 
 import numpy as np
@@ -54,4 +54,5 @@ plt.stem(n_values, phases, basefmt=" ")
 plt.title('Phase of First 10 Harmonics (Semilog-x)')
 plt.xlabel('n')
 plt.ylabel('Phase (radians)')
+
 plt.xscale('log')
